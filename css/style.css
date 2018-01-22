@@ -1,0 +1,217 @@
+*{box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+    background: black;
+}
+
+header{
+    background-color: lightblue;
+
+}
+#logo{
+    height:70%;
+}
+
+
+
+/* header and nav*/
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-weight: 200;
+    float: left;
+    background-color: lightblue;
+
+}
+
+nav a  {
+ font-size: 1.25em;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    padding: 0.5em;
+    align-items: center;
+    display: inline-block;
+    font-weight: 600;
+
+
+}
+nav li {
+    flex: 1;
+    display: inline;
+
+}
+
+nav a:hover,
+nav a:focus {
+    background-color:rgba(65, 115, 131, 0.507);
+    color: #444;
+}
+
+.flag{
+
+    padding: 4em;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    background:black ;
+    color: white;
+    margin:20px;
+    font-size: 25px;
+    background-image: url(../img/cinema1.jpg);
+
+
+
+}
+
+/***** Recent*/
+.section {
+    background-color: black ;
+    color: white;
+    padding: 4em;
+}
+
+h2,
+h3 {
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.recent-article {
+    background-color: rgba(27, 2, 2, 0.986);
+    color: aquamarine;
+    flex-flow: column;
+    display: block;
+    width: 90%;
+    margin:auto;
+
+
+}
+
+.recent-article p{
+    padding: 50px;
+
+   }
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+text{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4em;
+}
+.recentimage {
+    flex: 1 1 300px;
+    margin:auto;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+
+}
+.actor-detail-image{
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+.recentimage img {
+    max-width: 80%;
+    border-radius: 75%;
+}
+
+.text {
+    flex: 1 0 300px;
+    max-width: 100%;
+    padding: 0 2rem;
+    justify-content: center;
+}
+
+.hot-actor,
+.latest-movie{
+text-align: center;
+}
+
+.line {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0),
+                                                rgba(255,255,255, 0.75),
+                                                rgba(255, 255, 255, 0));
+    margin: 4em;
+}
+footer{
+    background-color: rgba(27, 2, 2, 0.986 );
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.latest-movie,
+.hot-actor
+{
+
+    width: 500px;
+    height: 700px;
+    margin: auto;
+
+}
+
+.centerimg{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/*movie**/
+.plot-article{
+    text-align: center;
+    padding:0 0 10px 0;
+    max-height: 200px;
+}
+
+.cast-pics{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-height: height 200px;
+}
+
+.cast-name{
+    color: white;
+}
+
+.cast-box {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+ .diego,
+ .felicity,
+ .alan,
+ .donnie
+ {
+     width: 300px;
+     height: 200px;
+ }
+ .cast-image{
+     max-width: 100%;
+     max-height: 100%;
+ }
+
+ .biography{
+     width:80%;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+ }
+
